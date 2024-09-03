@@ -4,7 +4,6 @@ const palindromes = function (word) {
     let j = newWord.length - 1;
 
     for (let i = 0; i < newWord.length / 2; i++) {
-        console.log(newWord[i] + " " + newWord[j]);
         if (newWord[i] !== newWord[j]) { // Use strict equality
             return false;
         }
